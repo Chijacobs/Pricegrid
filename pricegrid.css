@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&family=Outfit:wght@400;700&display=swap);
+
+body{
+    font-family: 'Karla' sans-serif; 
+    font-size: 16px;
+    display: grid;
+    /*justify-content: center;*/
+    background-color: hsl(204, 43%, 93%);
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-container{
+    font-family: 'Karla' sans-serif;
+    display: grid;
+    /*justify-content: center;*/
+    padding: 200px;
+}
+
+.grid-item-1{
+    columns: 100%;
+    grid-column: span 2;
+    background-color: white;
+    margin-right: 170px;
+    margin-left: 170px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.grid-item-2{
+    background-color: hsl(179, 62%, 43%);
+    align-items: center;
+    justify-content: center;
+    margin-left: 170px;
+    border-bottom-left-radius: 10px;
+    color: hsl(204, 43%, 93%);
+
+}
+
+.grid-item-3{
+    background-color: rgba(85, 192, 188, 0.997);
+    margin-right: 170px;
+    border-bottom-right-radius: 10px;
+    color: hsl(204, 43%, 93%);
+}
+
+.grid-item-1, .grid-item-2, .grid-item-3 {
+    padding: 20px 40px 30px;
+    text-align: left;  
+}
+
+button{
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    border: 0;
+    color: hsl(204, 43%, 93%);
+}
+
+h4{
+    color: hsl(71, 73%, 54%);
+}
+
+.grid-item-1 h3{
+    color: hsl(179, 62%, 43%);
+}
+
+.grid-item-1 p{
+    color: hsl(218, 22%, 67%);
+}
